@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 40px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    header img {
+        width: 45px;
+    }
+    td img {
+        max-width: 300px;
+    }
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
