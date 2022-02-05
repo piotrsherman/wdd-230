@@ -16,3 +16,12 @@ const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric
 
 var d = new Date();
 var n = d.toLocaleDateString(); document.getElementById("time").innerHTML = n;
+ /*Display banner */
+const infobanner = document.querySelector('.infobanner');
+const day = d.getDay();
+console.log("If you are digging this far into my website, go call the phone number on the page. Promise you will laugh.");
+if(day === 5) {
+    infobanner.style.display = "block";
+}else {
+    infobanner.style.display = "none";
+}

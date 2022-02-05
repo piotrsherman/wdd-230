@@ -1,0 +1,29 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+    .themotto {
+        font-size: 30px;
+    }
+    
+    .article img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .address img {
+        width: 450px;
+    }
+    
+    .contactinfo {
+        height: 400px;
+    }
+    
+    .info {
+        max-width: 950px;
+    }
+    
+    .article {
+        height: 450px;
+    }
+    
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
