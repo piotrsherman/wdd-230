@@ -16,6 +16,12 @@
     header img {
         width: 120px;
     }
+    .wesummary {
+        position: absolute;
+        top: 0px;
+        left: 75px;
+        display: block;
+    }
     .themotto {
         font-size: 20px;
     }
@@ -44,13 +50,39 @@
         margin-bottom: 5px;
         padding: 10px;
     }
+    .article1 img {
+        object-fit: cover;
+    }
+    .article1 {
+        height: 450px;
+    }
     .address img {
         width: 300px;
         display: block;
         padding: 10px;
     }
-}
-
-html {
-    font-family: 'Montserrat', sans-serif;
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container img {
+        padding: 5px;
+    }
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        padding: 8px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    article:nth-child(2) .image {
+        grid-column: 1;
+    }
+    article:nth-child(2) .content {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .image {
+        width: 100%;
+        padding: 10px;
+    }
 }
