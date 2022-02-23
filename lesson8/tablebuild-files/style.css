@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+table th,
+td {
+    border: 0 solid rgb(166, 141, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+.special {
+    background-color: #a1f5e7;
+    color: white;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: #e7f0ed;
+}
+
+table {
+    margin: auto;
+    background-color: #da70e4;
+}
+
+tfoot {
+    background-color: #8183ec;
+    font-size: 10px;
+}
