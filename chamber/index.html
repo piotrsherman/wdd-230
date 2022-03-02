@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chamber-files/normalize.css">
+    <link rel="stylesheet" href="chamber-files/base.css">
+    <link rel="stylesheet" href="chamber-files/medium.css">
+    <link rel="stylesheet" href="chamber-files/large.css">
+    <title>Home page</title>
+</head>
+
+<body>
+    <header>
+        <img src="chamber-files/moscow-logo.png" class="logo">
+        <h4 class="moscsow-chamber">Moscow chamber</h4>
+
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> ☰ </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="https://piotrsherman.github.io/wdd-230/chamber/index.html"> Home </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/chamber/discover.html"> Discover </a></li>
+                <li><a href="#"> Directory </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/chamber/join.html"> Join </a></li>
+                <li><a href="#"> Contact </a></li>
+            </ul>
+        </nav>
+
+        <date class="date-center">Wednesday, March 2, 2022</date>
+
+    </header>
+
+
+
+    <div class="grid-container">
+        <div class="item1">
+
+            <h4>Information</h4>
+            <h5>City Information</h5>
+            <p>Information about traffic on the roads, city events, etc.</p>
+        </div>
+        <div class="item2">
+
+
+            <picture>
+
+                <source media="(max-width: 1100px)" srcset="chamber-files/moscow-medium.jpg">
+                <source media="(max-width: 829px)" srcset="chamber-files/moscow-small.jpg">
+                <img src="chamber-files/moscow-large.jpg" alt="">
+            </picture>
+
+
+        </div>
+
+        <div class="item3">
+            <p class="none">hello</p>
+            <div class="spotilight1">
+                <h4>Advertisement</h4>
+                <small> <a href="#">Email</a></small> <br>
+                <small>Phone</small>
+            </div>
+            <div class="spotilight2">
+                <h4>Checking information about your area and place of residence</h4>
+                <small><a href="#">Email</a></small> <br>
+                <small>Phone</small>
+            </div>
+            <div class="spotilight3">
+                <h4>Metro</h4>
+                <p>Metro stations</p>
+                <small> <a href="#">Email</a></small> <br>
+                <small>Phone</small>
+            </div>
+        </div>
+        <div class="item4">
+            <h4>Weather</h4>
+            <p class="cloudy">Wheather now <span id="temp"> 18</span> °C</p>
+            <small>cloudy</small>
+            <p>Wind speed: <span id="speed">8</span></p>
+            <p>windChill <span id="windchill">27°</span></p>
+
+        </div>
+        <div class="item5">
+            <h4 class="join-us"><a href="https://anesushangwa.github.io/wdd230/Lesson8/join.html"> Join US</a></h4>
+            <p>Join us so we can work together</p>
+        </div>
+
+        <div class="item7">
+            <h4>Main news</h4>
+
+            <p> The main news of the city, information about events and sales </p>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="top-footer">
+
+            <div class="company">
+
+                <p> Adress: Tverskaya street 45 </p>
+
+            </div>
+            <div class="contact">
+
+                <p>
+                    <a href="" class="contact-info"></a>Phone</p>
+                <p>
+            </div>
+        </div>
+
+        <div class="wdd-info">©<span id="currentyear"></span> | BYUI | Peter Herman | Moscow</div>
+        <small id="updatetime"></small>
+    </footer>
+    <script src="chamber-files/script.js"></script>
+    <script src="chamber-files/windmill.js"></script>
+    <script src="chamber-files/todayDate.js"></script>
+
+    </footer>
+
+
+</body>
+
+</html>

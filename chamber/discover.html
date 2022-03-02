@@ -1,158 +1,170 @@
 <!DOCTYPE html>
-<html class="wf-titanone-n4-active wf-oswald-n4-active wf-active" lang="en-US">
+<html lang="en">
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="discover-files/css2.css" rel="stylesheet">
-    <link rel="stylesheet" href="discover-files/font-awesome.css">
-    <link rel="stylesheet" href="discover-files/normalized.css">
-    <link rel="stylesheet" href="discover-files/small.css">
-    <link rel="stylesheet" href="discover-files/medium.css">
-    <link rel="stylesheet" href="discover-files/large.css">
-    <title>Welcome to the gallery page where we are able to see other peoples work</title>
-    <script defer="defer" src="discover-files/lestyle.js"></script>
-    <script defer="defer" src="discover-files/imgsrc.js"></script>
-    <script defer="defer" src="discover-files/counter.js"></script>
-    <script src="discover-files/webfont.js"></script>
-    <script defer="defer" src="discover-files/webfontload.js"></script>
+    <link rel="stylesheet" href="chamber-files/normalize.css">
+    <link rel="stylesheet" href="chamber-files/base.css">
+    <link rel="stylesheet" href="chamber-files/medium.css">
+    <link rel="stylesheet" href="chamber-files/large.css">
+    <title>Discover</title>
 </head>
 
 <body>
-    <div class="infobanner" style="display: none;">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
-    </div>
     <header>
-        <section class="title">
-            <h1>Welcome</h1>
-        </section>
+        <img src="chamber-files/moscow-logo.png" class="logo">
+        <h4 class="moscsow-chamber">Moscow chamber</h4>
+
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> ☰ </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="https://piotrsherman.github.io/wdd-230/chamber/index.html"> Home </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/chamber/discover.html"> Discover </a></li>
+                <li><a href="#"> Directory </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/chamber/join.html"> Join </a></li>
+                <li><a href="#"> Contact </a></li>
+            </ul>
+        </nav>
+
+        <date class="date-center">Wednesday, March 2, 2022</date>
+
     </header>
-    <nav>
-        <ul class="navmenu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
-    </nav>
+
+    <div class="centers backc">
+        <p><span class="label">Visit: </span><span class="visits">5</span></p>
+    </div>
     <main>
-        <main>
-            <div class="galleryimgcon">
-                <h3>Gallery</h3>
-                <div class="container">
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/beach350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/beach450.jpg 1x" media="(min-width: 60em)">
-                            <img class="shadow" src="discover-files/crimle.jpg" alt="Beach picture from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Kremlin</div>
-                            </div>
-                        </div>
-
-                    </picture>
-
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/bird350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/bird450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/moscow-city.jpg" alt="bird on the water from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Moscow City</div>
-                            </div>
-                        </div>
 
 
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/frozen350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/frozen450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/kolokol.jpg" alt="Frozen berries from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Tsar Bell</div>
-                            </div>
-                        </div>
 
-                    </picture>
 
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/lago350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/lago450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/mavsolei.jpg" alt="Lake from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Lenin 's Mausoleum</div>
-                            </div>
-                        </div>
-
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/people350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/people450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/zaradje.jpg" alt="people kissing from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Zaryadye Park </div>
-                            </div>
-                        </div>
-
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/cloud350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/cloud450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/big-theatre.jpg" alt="clouds from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Moscow Bolshoi Theatre</div>
-                            </div>
-                        </div>
-
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/thunder350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/thunder450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/arka.jpg" alt="Thunder from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Arch</div>
-                            </div>
-
-                        </div>
-
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/thundercity350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/thundercity450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/zoo.jpg" alt="thunder over city from pixbay.com">
-                            <div class="overlay">
-                                <div class="text">Central Zoo</div>
-                            </div>
-
-                        </div>
-                    </picture>
-                    <picture>
-                        <div class="container1">
-                            <source srcset="discover-files/thunderbird350.jpg 1x" media="(min-width: 32.5em) and (max-width: 60em">
-                            <source srcset="discover-files/thunderbird450.jpg 1x" media="(min-width: 60em)">
-                            <img src="discover-files/center.webp" alt="birds with thuder around them ">
-                            <div class="overlay">
-                                <div class="text">City Center</div>
-                            </div>
-
-                        </div>
-                    </picture>
-                </div>
+        <picture class="first-img"><img class=" inner-img" src="discover-files/arka.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Arch
+                </h4>
             </div>
-        </main>
-        <footer>
-            ©<span id="currentdate">2022</span>| BYU-Idaho | Peter Herman
-            <p id="time">19.02.2022</p>
-            <div class="counting">Days since visited: <span id="count">0</span></div>
-        </footer>
+        </picture>
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/big-theatre.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>Moscow Bolshoi Theatre</h4>
+            </div>
+        </picture>
+        <picture>
+
+            <img class=" inner-img" src="discover-files/center.webp" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    City Center
+                </h4>
+
+            </div>
+        </picture>
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/crimle.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Kremlin
+                </h4>
+            </div>
+        </picture>
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/zaradje.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Zaryadye Park
+                </h4>
+            </div>
+        </picture>
+        <picture>
+
+            <img class=" inner-img" src="discover-files/zoo.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Central Zoo
+                </h4>
+            </div>
+        </picture>
+
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/mavsolei.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Lenin 's Mausoleum
+                </h4>
+            </div>
+        </picture>
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/moscow-city.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Moscow City
+                </h4>
+            </div>
+        </picture>
+        <picture>
+
+
+            <img class=" inner-img" src="discover-files/kolokol.jpg" alt="lazypic">
+            <div class="centering">
+                <h4>
+                    Tsar Bell
+                </h4>
+            </div>
+        </picture>
+
+
+    </main>
+
+
+    <footer>
+        <div class="top-footer">
+
+            <div class="company">
+
+                <p> Adress: Tverskaya street 45 </p>
+
+            </div>
+            <div class="contact">
+
+                <p>
+                    <a href="" class="contact-info"></a>Phone</p>
+                <p>
+            </div>
+        </div>
+
+        <div class="wdd-info">©<span id="currentyear"></span> | BYUI | Peter Herman | Moscow</div>
+        <small id="updatetime"></small>
+    </footer>
+    <script src="chamber-files/script.js"></script>
+    <script src="chamber-files/windmill.js"></script>
+    <script src="chamber-files/todayDate.js"></script>
+
+    </footer>
+    <script src="chamber-files/script.js"></script>
+    <script src="chamber-files/script_002.js"></script>
+    <script src="chamber-files/date.js"></script>
+    <script src="chamber-files/lazyload.js"></script>
+    <script src="chamber-files/todayDate.js"></script>
+    <script src="chamber-files/webvisit.js"></script>
+
+
+
 
 </body>
 
