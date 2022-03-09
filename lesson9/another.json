@@ -1,0 +1,81 @@
+{
+    "busineses": [{
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/sber.jpg?v=1646845034907",
+            "name": "sber",
+            "phonenumber": "8800 5553535",
+            "website": "https://sber.com"
+
+
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/zara.png?v=1646845045110",
+            "name": "zara",
+            "phonenumber": "9187236497238",
+            "website": "https://zara.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/tsum.png?v=1646845045339",
+            "name": "tsum",
+            "phonenumber": "81723463",
+            "website": "https://tsum.com"
+
+
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/pepsi.png?v=1646845067944",
+            "name": "pepsi",
+            "phonenumber": "8237487123",
+            "website": "https://pepsi.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/samsung.jpg?v=1646845072940",
+            "name": "samsung,",
+            "phonenumber": "872134623",
+            "website": "https://samsung.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/Mcdonalds.png?v=1646845074844",
+            "name": "Mcdonalds",
+            "phonenumber": "2872386",
+            "website": "https://mcdonalds.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/kfc.png?v=1646845094055",
+            "name": " kfc",
+            "phonenumber": "872487234",
+            "website": "https://kfc.com"
+        }
+
+        ,
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/harman.png?v=1646845097954",
+            "name": "harman",
+            "phonenumber": "8729734y",
+            "website": "https://harman.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/cola.jpg?v=1646845102377",
+            "name": "coca-cola",
+            "phonenumber": "72387234",
+            "website": "https://coca-cola.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/bk.png?v=1646845108818",
+            "name": "Burger King",
+            "phonenumber": "82734687123",
+            "website": "https://burgerking.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/apple.png?v=1646845110479",
+            "name": "apple",
+            "phonenumber": "837264",
+            "website": "https://apple.com"
+        },
+        {
+            "imageurl": "https://cdn.glitch.global/9dfef017-f5db-45ae-81cf-31af6576d875/apple.png?v=1646845110479",
+            "name": "apple",
+            "phonenumber": "837264",
+            "website": "https://apple.com"
+        }
+    ]
+}
