@@ -60,8 +60,6 @@ nav {
 
 .navigation {
     list-style: none;
-    /* padding: 0;
-        margin: 0; */
     padding: .5rem;
     position: absolute;
     width: 100%;
@@ -281,9 +279,6 @@ img {
     color: black;
 }
 
-
-/* other changes */
-
 .spotilight1 img {
     width: 60px;
 }
@@ -301,9 +296,6 @@ img {
         top: 10%;
     }
 }
-
-
-/* discover page */
 
 main {
     display: grid;
@@ -327,24 +319,6 @@ picture {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-/* 
- .first-img,
- .sec-img,
-  .third-img,
-  .forth-img,
-  .fith-img,
-  .sixth-img,
-  .seveth-img,
-  .eight-img,
-  .nine-img {  
-    
-    overflow: hidden; 
-  } */
-
-
-/* Other styling elements, that are not necessary for the example */
-
 .first-img,
 .sec-img,
 .third-img,
@@ -357,24 +331,18 @@ picture {
     display: inline-block;
 }
 
-
-/* Small Devices, Tablets */
-
 @media only screen and (max-width: 600px) {
     .inner-img {
-        /*CSS transitions*/
         -o-transition-property: none !important;
         -moz-transition-property: none !important;
         -ms-transition-property: none !important;
         -webkit-transition-property: none !important;
         transition-property: none !important;
-        /*CSS transforms*/
         -o-transform: none !important;
         -moz-transform: none !important;
         -ms-transform: none !important;
         -webkit-transform: none !important;
         transform: none !important;
-        /*CSS animations*/
         -webkit-animation: none !important;
         -moz-animation: none !important;
         -o-animation: none !important;
@@ -442,9 +410,6 @@ textarea {
     resize: none;
 }
 
-
-/* directory */
-
 .cards {
     max-width: 960px;
     margin: 5rem auto;
@@ -479,7 +444,6 @@ section img {
 }
 
 @media only screen and (max-width: 900px) {
-    /* For desktop: */
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -489,7 +453,6 @@ section img {
 }
 
 @media only screen and (max-width: 500px) {
-    /* For desktop: */
     .cards {
         display: grid;
         grid-template-columns: 1fr;
