@@ -6,7 +6,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function(jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
+        console.table(jsonObject);
 
         const busineses = jsonObject['busineses'];
 
@@ -17,12 +17,10 @@ fetch(requestURL)
 
 
 function displaybusineses(business) {
-    // date of birth , birth place and prophet images
     const card = document.createElement('section');
     const image = document.createElement('img');
     const p1 = document.createElement('p');
     const p3 = document.createElement('p');
-    //    const p2 = document.createElement('p');
     const p4 = document.createElement('p');
 
 
