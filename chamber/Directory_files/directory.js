@@ -30,13 +30,13 @@ function displaybusineses(business) {
     card.appendChild(image);
 
 
-    p3.textContent = ` Phone number:  ${business.phonenumber}`;
+    p3.textContent = ` Phone:  ${business.phonenumber}`;
     card.appendChild(p3);
 
-    p4.textContent = ` Location: ${business.name}`;
+    p4.textContent = ` Address: ${business.name}`;
     card.appendChild(p4);
 
-    p1.textContent = ` Web site: ${business.website}`;
+    p1.textContent = ` site: ${business.website}`;
     card.appendChild(p1);
 
 
