@@ -8,9 +8,6 @@ fetch(apiURL)
 
         const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
         const desc = jsObject.weather[0].description;
-        // document.querySelector('#icon-src').textContent = iconsrc;
-        document.querySelector('#weathericon').setAttribute('src', iconsrc);
-        document.querySelector('#weathericon').setAttribute('alt', desc);
         document.querySelector('#speed').textContent = jsObject.wind.speed;
         document.querySelector('figcaption').textContent = desc;
 
