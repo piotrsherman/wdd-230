@@ -1,0 +1,33 @@
+{
+    "busineses": [{
+            "imageurl": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg",
+            "name": "Aba-Nigeria-Temple",
+            "phonenumber": "(234) 80-3903-4810",
+            "website": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng"
+
+
+        },
+        {
+            "imageurl": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+            "name": "Accra-Ghana-Temple",
+            "phonenumber": "(233) 302-650-123",
+            "website": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng"
+        },
+        {
+            "imageurl": "https://assets.ldscdn.org/e9/bd/e9bd6df8906a98026e04cd747c4b5c9d78abb7e4/adelaide_australia_temple.jpeg",
+            "name": "Adelaide-Australia-Temple",
+            "phonenumber": "(61) 8-8363-8000",
+            "website": "https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng"
+
+
+        },
+        {
+            "imageurl": "https://assets.ldscdn.org/77/01/77011c98a99dd1ded7a0451507b020c71c3efed8/arequipa_peru_temple.jpeg",
+            "name": "Arequipa-Peru-Temple",
+            "phonenumber": "8237487123",
+            "website": "https://www.churchofjesuschrist.org/temples/details/arequipa-peru-temple?lang=eng"
+        }
+
+        
+    ]
+}
