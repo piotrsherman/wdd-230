@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel-files/normalize.css">
+    <link rel="stylesheet" href="hotel-files/base.css">
+    <link rel="stylesheet" href="hotel-files/medium.css">
+    <link rel="stylesheet" href="hotel-files/large.css">
+    <script defer="defer" src="js/weather.js"></script>
+    <title>Home page</title>
+    <link rel="icon" href="hotel-files/hotel-logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://cdn.glitch.com/baed4e74-5bd6-4371-a62b-3f5cf8b61b7d%2Flogo.png?v=1626709470876" class="logo" style="width: 700px; height: 100px;">
+        <h4 class="moscsow-chamber">Temple Inn & Suites</h4>
+
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> ☰ </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li class="active"><a href="https://piotrsherman.github.io/wdd-230/hotel/index.html"> Home </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/hotel/reservation.html"> Reservation </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/hotel/temple.html"> Temple </a></li>
+                <li><a href="https://piotrsherman.github.io/wdd-230/hotel/services"> Services </a></li>
+            </ul>
+        </nav>
+
+        <ul>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </ul>
+        <date class="date-center">Wednesday, March 2, 2022</date>
+
+    </header>
+
+
+
+    <div class="grid-container">
+        <div class="item1">
+
+            <h3>You can organize a wedding event</h3>
+        </div>
+        <div class="item2">
+
+
+            <picture>
+
+                <source media="(max-width: 1100px)" srcset="hotel-files/temple-medium.jpg">
+                <source media="(max-width: 829px)" srcset="hotel-files/temple-small.jpg">
+                <div class="container">
+                    <img src="hotel-files/mar.jpg" alt="Norway" style="width:100%;">
+                    <div class="text-block">
+                      <h4>Spend the wedding unforgettable!</h4>
+                    </div>
+                  </div>
+            </picture>
+
+
+        </div>
+
+        <div class="item3">
+            <p class="none">hello</p>
+            <div class="spotilight1">
+                <h3>Choose the appropriate menu and other aspects of how you plan to host the event</h3>
+            </div>
+            <div class="spotilight2">
+                
+                
+                
+            </div>
+            <div class="spotilight3">
+                <img style="width: 200px;" src="hotel-files/temple1.jpg" alt="">
+                <img style="width: 200px;" src="hotel-files/temple2.jpg" alt="">
+                <img style="width: 200px;" src="hotel-files/temple3.jpeg" alt="">
+            </div>
+        </div>
+        <div class="item4">
+            <h4>Weather</h4>
+            <p class="cloudy">Wheather is <br><strong><span id="temp"></span> °F</p></strong>
+            <br>
+            <small>cloudy</small>
+            <p>Wind speed: <span id="speed">8</span></p>
+            <p>windChill <span id="windchill">27</span></p>
+
+        </div>
+        <div class="item5">
+            <h4 class="join-us"><a href="https://piotrsherman.github.io/wdd-230/hotel/reservation.html">Let's make a reservation!</a></h4>
+            <p>You can make a room reservation!</p>
+        </div>
+
+        <div class="item7">
+            <h4>About us</h4>
+
+            <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company.</p>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="top-footer">
+
+            <div class="company">
+
+                <p> Adress: 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                <a href="#" style="color: white;">Location map</a>
+
+            </div>
+            
+        </div>
+
+        <div class="wdd-info">©<span id="currentyear"></span> | BYUI | Peter Herman | Moscow</div>
+        <small id="updatetime"></small>
+    </footer>
+    <script src="hotel-files/script.js"></script>
+    <script src="hotel-files/windmill.js"></script>
+    <script src="hotel-files/todayDate.js"></script>
+
+    
+
+
+</body>
+
+</html>
